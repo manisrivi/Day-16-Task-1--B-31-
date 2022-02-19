@@ -1,0 +1,50 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #FF8008;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border: none;
+}
+.container{
+    align-items: center;
+    padding: 50px;
+    width: 500px;
+    font-weight: bold;
+}
+.col-3 {
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    background-color: #b9bdc2;
+    padding: 25px;
+    /* border-radius: 30px; */
+    box-shadow: inset 5px 5px 12px #f8ebeb,
+                      5px 5px 12px rgba(0, 0, 0, .16);
+              
+}
+.equal {
+    font-size: large;
+    font-weight: bold;
+    background-color: #b9bdc2;
+    padding: 25px;
+    border: none;
+    
+    /* border-radius: 30px; */
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px 12px rgba(0, 0, 0, .16);
+}
+.col-12 {
+    background-color: #b9bdc2;
+    padding: 25px;
+    height: 150px;
+    border: none;
+    text-align: end;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #e0c0c0,
+                      5px 5px 12px rgba(0, 0, 0, .16);
+}
